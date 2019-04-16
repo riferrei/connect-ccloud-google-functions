@@ -1,0 +1,10 @@
+credentials/keyfile.json
+
+terraform/gcp/cert.pem
+terraform/gcp/.terraform/**/*.*
+terraform/gcp/terraform.tfstate
+terraform/gcp/terraform.tfstate.backup
+terraform/gcp/.terraform.tfstate.lock.info
+terraform/gcp/ccloud.auto.tfvars
+terraform/gcp/cloud.auto.tfvars
+terraform/gcp/endpoint.auto.tfvars

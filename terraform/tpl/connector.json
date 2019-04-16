@@ -1,0 +1,14 @@
+{
+    "name" : "myfunction",
+    "config" : {
+      "connector.class" : "uk.co.threefi.connect.http.HttpSinkConnector",
+      "tasks.max" : "1",
+      "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+      "key.converter.schemas.enable": "false",
+      "value.converter": "org.apache.kafka.connect.storage.StringConverter",
+      "value.converter.schemas.enable": "false",
+      "topics" : "myfunction",
+      "http.api.url" : "${endpoint}",
+      "request.method" : "POST"
+    }
+  }
