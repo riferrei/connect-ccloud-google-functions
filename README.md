@@ -39,9 +39,14 @@ Main Steps
 
 4) Create a JSON Key for the service account. Store the JSON key in the 'credentials' folder using 'keyfile.json' as the name of the file.
 
+```bash
+    $ mkdir credentials <ENTER>
+    $ cp <JSON_KEY_FILE> credentials/keyfile.json <ENTER>
+```
+
 5) Edit the file 'serverless/serverless.yml', and replace <PROJECT_NAME> with the name of your GCP project.
 
-6) Initialize the Google Functions plugins by running the following commands:
+6) Initialize the Google Functions plugins by running the following command:
 
 ```bash
     $ cd serverless <ENTER>
