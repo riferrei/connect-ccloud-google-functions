@@ -28,7 +28,6 @@ Main Steps
 ```bash
     $ ccloud topic create myfunction <ENTER>
 ```
-Once the script finishes, there will be an output showing this:
 
 3) Create an service account in your GCP project, making sure that the service account has the following roles:
 - Compute Network Admin
