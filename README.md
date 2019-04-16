@@ -58,7 +58,6 @@ Main Steps
     $ cd serverless <ENTER>
     $ serverless deploy -v <ENTER>
 ```
-
 Take a note of the endpoint URL that is printed when the deployment finishes.
 
 8) Create a copy of the file 'terraform/gcp/endpoint.auto.tfvars.example' and rename the new file to 'terraform/gcp/endpoint.auto.tfvars'.
