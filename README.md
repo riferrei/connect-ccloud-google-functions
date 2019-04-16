@@ -1,6 +1,6 @@
 # Connecting Confluent Cloud with Google Functions
 
-This example shows how to send records from a topic to a Google Function using Kafka Connect. Every record sent to a topic named 'myfunction' would be sent to a function of the same name running on Google Functions. This integration is done by Kafka Connect using an HTTP Connector.
+This example shows how to send records from a topic to a Google Function using Kafka Connect. Every record sent to a topic named 'myfunction' would be sent to a function running on Google Functions. This integration is done by Kafka Connect using an HTTP Connector.
 
 <p align="center">
     <img src="images/ccloud-google-function.png" />
